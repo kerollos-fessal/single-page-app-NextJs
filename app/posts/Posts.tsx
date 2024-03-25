@@ -23,7 +23,7 @@ const Posts =async ({orderBy}:props) => {
         
         <div key={post.id} className='text-white w-80 px-2 py-1 rounded-md shadow-slate-700 shadow-md mb-10 bg-slate-400 border-stone-900 border-4'>
             <div className='border-b-rose-950 font-bold border-b-2 text-center'>{post.title}</div>
-            <div className='font-serif  hover:text-lime-300 text-justify'>{post.body}</div>
+            <div className='font-serif hover:cursor-pointer  hover:text-lime-300 text-justify'>{post.body}</div>
         </div>
         )}
     </div>
